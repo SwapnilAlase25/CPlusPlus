@@ -1,0 +1,43 @@
+
+
+---------- Creating a New Local Repo and connecting to remote repo ------------------
+
+1. Create a new dir, and open terminal in that dir
+
+2. $ git init    // initialises empty git repo
+
+3. login in github.com and create a repo without license and readme file
+
+4. $ git remote add origin https://github.com/SwapnilAlase25/CPlusPlus.git  
+// this will connect local to remote repo
+
+5. to check if it is connected, use $ git remote -v
+ and if u get this,
+
+origin	https://github.com/SwapnilAlase25/CPlusPlus.git (fetch)
+origin	https://github.com/SwapnilAlase25/CPlusPlus.git (push)
+
+It means you have connected successfully.
+
+------------------------- push and pull(Fetch)  ---------------------------------------------
+
+6.  Create Readme.md, MIT LICENSE, and .gitignore file in github
+
+7. $ git pull origin master  // to pull the repo
+
+8. $ git push -u origin master   // to push, it will ask ur credentials
+
+
+
+----------------------- To Add a new file ----------------------------------------------------
+
+
+ 1. Add the New Code File in the local Folder
+
+ 2. Do    $ git add .
+
+ 3. Check $ git status
+
+ 4. $ git commit -m "Comment for the commit"
+
+ 5. 
