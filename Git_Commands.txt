@@ -35,10 +35,12 @@ It means you have connected successfully.
 
  1. Add the New Code File in the local Folder
 
- 2. Do    $ git add .
+ 2. Do $ git add .
 
  3. Check $ git status
 
  4. $ git commit -m "Comment for the commit"
 
- 5. $ git push  // to push it in github
+ 5. $ git log // to check the logs
+
+ 6. $ git push  // to push it in github
