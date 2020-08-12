@@ -30,8 +30,6 @@ It means you have connected successfully.
 9. Once the git is tracking the branch you can just git pull and git push
 
 
-
-
 ----------------------- To Add a new file ----------------------------------------------------
 
 
