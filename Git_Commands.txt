@@ -27,6 +27,9 @@ It means you have connected successfully.
 
 8. $ git push -u origin master   // to push, it will ask ur credentials
 
+9. Once the git is tracking the branch you can just git pull and git push
+
+
 
 
 ----------------------- To Add a new file ----------------------------------------------------
@@ -40,4 +43,4 @@ It means you have connected successfully.
 
  4. $ git commit -m "Comment for the commit"
 
- 5. 
+ 5. $ git push  // to push it in github
